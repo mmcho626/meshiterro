@@ -12,7 +12,7 @@ resources :post_images, only: [:new, :create, :index, :show, :destroy] do
 
 end
 
-resources :users, only: [:show , :edit]
+resources :users, only: [:show , :edit, :update]
 
 
 end
